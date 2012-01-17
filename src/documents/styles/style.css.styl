@@ -1,0 +1,166 @@
+@import '../styles/base.css'
+@import '../styles/skeleton.css'
+@import '../styles/prettify.css'
+@import 'nib'
+
+// sunburst colors
+black = #111
+cream = #AEAEAE // comment
+blue = #3387CC // constant
+lightBlue = #89BDFF // entity
+orange = #E28964 // keyword
+lime = #99CF50 // storage
+green = #65B042 // string
+midBlue = #3E87E3 // variable
+purple = #9B859D // support
+pink = #FD5FF1 // invalid
+
+dark = #1A1F2B
+midDark = #4A6491
+
+lightDark = #85A5CC
+light = #D0E4F2
+
+// html, body, body > .container, #mainContent
+// 	height 100%
+
+body
+	color cream
+	background-color black
+
+h1, h2, h3
+	color lime
+	font-weight bold
+	text-shadow 0 1px 1px black
+	letter-spacing -1px
+
+a, a:visited
+	color lightBlue
+	text-decoration none
+a:hover
+	color blue
+
+p, strong
+	color cream
+
+aside
+	position fixed
+	z-index 10
+	padding 60px 0 0
+	text-shadow 0 1px 1px black
+	text-align right
+
+	// .content
+	// 	position fixed
+
+	h1
+		font-size 72px
+		letter-spacing -3px
+
+		span
+			font-size 39px
+			position relative
+			top -14px
+			color green !important
+	
+		a, a:visited, a:hover
+			color lime
+	
+	h2
+		font-size 30px
+
+	p, strong
+		color blue
+
+#mainContent
+	position relative
+
+article
+	margin 40px 0 0
+	padding 0 20px
+
+	h2
+		color blue
+	
+	.date
+		color orange
+	
+	li
+		margin 0 0 0 30px
+		list-style-type circle
+	
+	pre
+		padding 15px 10px
+		margin 0 0 20px
+		background #000
+		border-radius 10px
+
+	code
+		color green
+		font-family 'Liberation Mono', 'Consolas', 'Menlo', 'Monaco', 'Lucida Console', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', 'monospace', 'serif'
+		background #000
+		padding 5px 10px
+		border-radius 10px
+
+.social
+	
+	li
+		float right
+		padding 0 0 0 10px
+	
+	a
+		display block
+		width 24px
+		height 24px
+		background-repeat no-repeat
+	
+	.email
+		background-image url('../images/email.png')
+	.google
+		background-image url('../images/google-plus.png')
+	.linkedIn
+		background-image url('../images/linkedin.png')
+	.github
+		background-image url('../images/github.png')
+	.soundcloud
+		background-image url('../images/soundcloud.png')
+	.lastfm
+		background-image url('../images/lastfm.png')
+	.twitter
+		background-image url('../images/twitter-2.png')
+
+footer.sixteen
+	height 50px
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px)
+
+	.social
+		position relative
+		right -10px
+		overflow auto
+
+		li
+			padding 0
+		
+		a
+			background-position center
+			height 44px
+			width 44px
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+// @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px)
+
+	aside
+		position initial
+	
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+// @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+// @media only screen and (max-width: 479px) {}

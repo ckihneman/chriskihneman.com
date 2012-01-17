@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+	<title>Chris Kihneman<%= if @document.title then " - #{ @document.title }" else '' %></title>
+	<meta name="description" content="Frontend Thug">
+	<meta name="author" content="Chris Kihneman">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="/styles/style.css">
+
+	<!-- Favicons
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+</head>
+<body>
+
+	<div class="container">
+	
+		<aside class="four columns offset-by-one">
+			<div class="content">
+				
+				<h1 id="logo"><a href="/">chris<br> <span>kihneman</span></a></h1>
+
+				<p>
+					frontend thug,<br>
+					hill mobber.
+				</p>
+
+				<p class="mobileHide">
+					<em>passionate</em> about<br>
+					html5, css3 &amp; <strong>javascript</strong>,<br>
+					desktop &amp; mobile,<br>
+					phonegap iOS &amp; android,<br>
+					coffeescript &amp; stylus,<br>
+					bass music,<br>
+					lots of other stuff too -<br>
+					i <em><strong>love</strong></em> what i do.
+				</p>
+
+				<h2>reach me on</h2>
+				<ul class="social">
+					<li>
+						<a class="lastfm" href="http://www.last.fm/user/ckihneman" target="_blank"></a>
+					</li>
+					<li>
+						<a class="soundcloud" href="http://soundcloud.com/sic1" target="_blank"></a>
+					</li>
+					<li>
+						<a class="github" href="https://github.com/ckihneman" target="_blank"></a>
+					</li>
+					<li>
+						<a class="linkedIn" href="http://www.linkedin.com/pub/chris-kihneman/13/740/1a0" target="_blank"></a>
+					</li>
+					<li>
+						<a class="google" href="https://plus.google.com/107511021670514138074/" target="_blank"></a>
+					</li>
+					<li>
+						<a class="email" href="mailto:ckihneman@gmail.com" target="_blank"></a>
+					</li>
+				</ul>
+
+			</div>
+		</aside>
+		<section id="mainContent" class="ten columns offset-by-five">
+			<%- @content %>
+		</section>
+
+		<footer class="sixteen columns">
+			<p></p>
+		</footer>
+	</div><!-- container -->
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+<!-- <script src="/vendor/prettify.js"></script> -->
+
+<!-- <script src="/scripts/script.js"></script> -->
+
+</body>
+</html>

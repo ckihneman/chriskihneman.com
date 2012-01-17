@@ -1,0 +1,18 @@
+---
+layout: 'default'
+---
+
+
+<% for document in @documents: %>
+	<% if document.url.indexOf('/posts') == 0: %>
+	
+	<article>
+		<h2><a href="<%= document.url %>"><%= document.title %></a></h2>
+		<p class="date"><%= document.when %></p>
+		<div class="content">
+			<%- document.contentNoLayout %>
+		</div>
+	</article>
+	
+	<% end %>
+<% end %>
