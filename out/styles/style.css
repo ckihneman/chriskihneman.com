@@ -11,7 +11,7 @@ aside .content{position:fixed;width:220px}
 aside h1{font-size:72px;letter-spacing:-3px;}
 aside h1 span{font-size:39px;position:relative;top:-14px;color:#65b042 !important}
 aside h1 a,aside h1 a:visited,aside h1 a:hover{color:#99cf50}
-aside h2{font-size:30px}
+aside h2{font-size:30px;color:#e28964}
 aside p,aside strong{color:#3387cc}
 #mainContent{position:relative}
 article{margin:40px 0 0;padding:0 20px;}
