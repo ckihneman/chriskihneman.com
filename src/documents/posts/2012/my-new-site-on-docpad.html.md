@@ -37,4 +37,6 @@ DocPad gives you lots of options for file parsing, I chose to go with [Eco](http
 
 Here is [DocPad Skeleton](https://github.com/ckihneman/DocPad-Skeleton) on my github - I made it as a base template to start this site with. It has a few posts in it to ensure things are working. I hope it helps someone out.
 
+I want to thank [Icon Dock](http://icondock.com/free/vector-social-media-icons) for the awesome social media icons. They've got just about any network you can imagine being a part of - 16px, 24px, 32px in PNG format and a vector EPS file.
+
 I've also posted [my site on github](https://github.com/ckihneman/chriskihneman.com) for anyone interested in seeing my implementation.
