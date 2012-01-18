@@ -6,7 +6,7 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>Chris Kihneman<%= if @document.title then " - #{ @document.title }" else '' %></title>
+	<title>Chris Kihneman<%= if @document.title and @document.title isnt 'index.html' then " - #{ @document.title }" else '' %></title>
 	<meta name="description" content="Frontend Thug">
 	<meta name="author" content="Chris Kihneman">
 	<!--[if lt IE 9]>
