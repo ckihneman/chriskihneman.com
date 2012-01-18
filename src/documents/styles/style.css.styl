@@ -15,15 +15,6 @@ midBlue = #3E87E3 // variable
 purple = #9B859D // support
 pink = #FD5FF1 // invalid
 
-dark = #1A1F2B
-midDark = #4A6491
-
-lightDark = #85A5CC
-light = #D0E4F2
-
-// html, body, body > .container, #mainContent
-// 	height 100%
-
 body
 	color cream
 	background-color black
@@ -44,14 +35,13 @@ p, strong
 	color cream
 
 aside
-	position fixed
-	z-index 10
 	padding 60px 0 0
 	text-shadow 0 1px 1px black
 	text-align right
 
-	// .content
-	// 	position fixed
+	.content
+		position fixed
+		width 220px
 
 	h1
 		font-size 72px
@@ -132,13 +122,16 @@ article
 footer.sixteen
 	height 50px
 
-/* Smaller than standard 960 (devices and browsers) */
+// Smaller than standard 960 (devices and browsers)
 @media only screen and (max-width: 959px)
+
+	.container aside .content
+		width 172px
 
 	.social
 		position relative
 		right -10px
-		overflow auto
+		overflow hidden
 
 		li
 			padding 0
@@ -148,19 +141,36 @@ footer.sixteen
 			height 44px
 			width 44px
 
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-// @media only screen and (min-width: 768px) and (max-width: 959px) {}
+// Tablet Portrait size to standard 960 (devices and browsers)
+// @media only screen and (min-width: 768px) and (max-width: 959px)
 
-/* All Mobile Sizes (devices and browser) */
+// All Mobile Sizes (devices and browser)
 @media only screen and (max-width: 767px)
 
+	.container aside .content
+		width 100%
+		position static
+
+		p
+			display none
+
+// Mobile Landscape Size to Tablet Portrait (devices and browsers)
+@media only screen and (min-width: 480px) and (max-width: 767px)
+
+	#logo
+		float left
+
+	.social
+		width 166px
+		float right
+		margin 0
+
+// Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+@media only screen and (max-width: 479px)
+
 	aside
-		position initial
-	
+		text-align center
 
+	.social
+		right 18px
 
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-// @media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-// @media only screen and (max-width: 479px) {}

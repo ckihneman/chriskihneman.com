@@ -74,7 +74,7 @@
 
 			</div>
 		</aside>
-		<section id="mainContent" class="ten columns offset-by-five">
+		<section id="mainContent" class="ten columns">
 			<%- @content %>
 		</section>
 

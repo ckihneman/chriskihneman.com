@@ -6,7 +6,8 @@ h1,h2,h3{color:#99cf50;font-weight:bold;text-shadow:0 1px 1px #111;letter-spacin
 a,a:visited{color:#89bdff;text-decoration:none}
 a:hover{color:#3387cc}
 p,strong{color:#aeaeae}
-aside{position:fixed;z-index:10;padding:60px 0 0;text-shadow:0 1px 1px #111;text-align:right;}
+aside{padding:60px 0 0;text-shadow:0 1px 1px #111;text-align:right;}
+aside .content{position:fixed;width:220px}
 aside h1{font-size:72px;letter-spacing:-3px;}
 aside h1 span{font-size:39px;position:relative;top:-14px;color:#65b042 !important}
 aside h1 a,aside h1 a:visited,aside h1 a:hover{color:#99cf50}
@@ -29,8 +30,14 @@ article code{color:#65b042;font-family:'Liberation Mono','Consolas','Menlo','Mon
 .social .lastfm{background-image:url("../images/lastfm.png")}
 .social .twitter{background-image:url("../images/twitter-2.png")}
 footer.sixteen{height:50px}
-@media only screen and (max-width: 959px){.social{position:relative;right:-10px;overflow:auto;}
+@media only screen and (max-width: 959px){.container aside .content{width:172px}
+.social{position:relative;right:-10px;overflow:hidden;}
 .social li{padding:0}
 .social a{background-position:center;height:44px;width:44px}
-}@media only screen and (max-width: 767px){aside{position:initial}
+}@media only screen and (max-width: 767px){.container aside .content{width:100%;position:static;}
+.container aside .content p{display:none}
+}@media only screen and (min-width: 480px) and (max-width: 767px){#logo{float:left}
+.social{width:166px;float:right;margin:0}
+}@media only screen and (max-width: 479px){aside{text-align:center}
+.social{right:18px}
 }
