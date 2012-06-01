@@ -1,0 +1,41 @@
+{
+	"name": "ckihneman.github",
+	"version": "0.1.0",
+	"description": "Chris Kihneman's personal site.",
+	"homepage": "http://ckihneman.github.com",
+	"keywords": [
+		"playground",
+		"website",
+		"docpad"
+	],
+	"author": "Chris Kihneman <ckihneman@gmail.com> (http://ckihneman.github.com)",
+	"maintainers": [
+		"Chris Kihneman <ckihneman@gmail.com> (http://ckihneman.github.com)"
+	],
+	"contributors": [
+		"Chris Kihneman <ckihneman@gmail.com> (http://ckihneman.github.com)"
+	],
+	"bugs": {
+		"url": "https://github.com/ckihneman/ckihneman.github.com/issues"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "https://ckihneman@github.com/ckihneman/ckihneman.github.com.git"
+	},
+	"dependencies": {
+		"coffee-script": "1.3.x",
+		"express": "2.5.x",
+		"docpad": "5.2.0",
+		"docpad-plugin-cachr": "latest",
+		"docpad-plugin-cleanurls": "latest",
+		"docpad-plugin-coffee": "latest",
+		"docpad-plugin-eco": "latest",
+		"docpad-plugin-markdown": "latest",
+		"docpad-plugin-partials": "latest",
+		"docpad-plugin-related": "latest",
+		"docpad-plugin-stylus": "latest"
+	},
+	"engines" : {
+		"node": ">=0.4.0"
+	}
+}
