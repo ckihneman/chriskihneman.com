@@ -6,3 +6,5 @@ tags: ['jquery','jquerycon']
 ---
 
 Same shit.
+
+Use `.progress` on long-runing operations to see how far along your fetches are taking.
