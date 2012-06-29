@@ -4,7 +4,7 @@ layout: 'default'
 
 
 <% for document in @documents: %>
-	<% if document.url.indexOf('/posts') == 0: %>
+	<% if document.url.indexOf('/posts') == 0 and document.url.indexOf('/jquerycon2012') == -1: %>
 	
 	<article>
 		<h2><a href="<%= document.url %>"><%= document.title %></a></h2>
