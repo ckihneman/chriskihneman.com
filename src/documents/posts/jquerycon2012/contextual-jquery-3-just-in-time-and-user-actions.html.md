@@ -64,7 +64,7 @@ mouseenter/leave on delay
 
 * [jquery waypoints](http://bit.ly/jquerywaypoints)
 
-* [jquery sonar]()
+* [jquery sonar](https://github.com/artzstudio/jQuery-Sonar)
 
 * throttle or debounce on intensive operations
 
