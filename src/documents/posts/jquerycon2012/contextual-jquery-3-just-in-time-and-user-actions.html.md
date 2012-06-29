@@ -1,7 +1,7 @@
 ---
 title: 'Contextual jQuery 3: Just In Time & User Actions'
 speaker: 'Doug Neiner'
-when: '6.28.12'
+when: '6.29.12'
 layout: 'post'
 tags: ['jquery','jquerycon']
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Confessions of a jQuery Committer'
 speaker: 'Corey Frang, Kris Borchers, Adam Sontag, and Rick Waldron'
-when: '6.28.12'
+when: '6.29.12'
 layout: 'post'
 tags: ['jquery','jquerycon']
 ---
