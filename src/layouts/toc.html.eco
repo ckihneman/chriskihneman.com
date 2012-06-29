@@ -1,0 +1,20 @@
+---
+layout: 'default'
+---
+
+<article>
+	<h2><%= @document.title %></h2>
+	<p class="date"><%= @document.when %></p>
+	<%- @content %>
+</article>
+
+<% for document in @documents: %>
+	<% if document.url.indexOf('/posts/jquerycon2012') == 0: %>
+	
+	<article>
+		<h3><a href="<%= document.url %>"><%= document.title %></a></h3>
+		<p class="date"><%= document.when %></p>
+	</article>
+	
+	<% end %>
+<% end %>
