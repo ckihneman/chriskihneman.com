@@ -6,3 +6,10 @@ layout: 'post'
 tags: ['jquery','jquerycon']
 ---
 
+stop manually testing, fast feedback, test in isolation
+
+write with overwritable functions
+
+[sinonjs](http://sinonjs.org/)
+
+[jquery moxJax]()
